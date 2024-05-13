@@ -1,0 +1,332 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+.Es-100
+{
+width: 100%;
+}
+.Es-95
+{
+width: 95%;
+}
+.Es-70
+{
+width: 70%;
+}
+.Es-50
+{
+width: 50%;
+}
+.Es-30
+{   
+width: 30%;
+}
+.circle_one  span i
+{
+font-size: 1rem;
+}
+.navbar-nav {
+  position: absolute !important;
+  background-color: white !important;
+  width: 100% !important;
+
+   padding-left: 0 !important;
+}
+.container
+{
+padding-inline: 1.5rem !important;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .sm-100
+    {
+    width: 100%;
+    }
+    .sm-95
+    {
+    width: 95%;
+    }
+    .sm-90
+    {
+    width: 90%;
+    }
+    .sm-85
+    {
+    width: 85%;
+    }
+    .sm-70
+    {
+    width: 70%;
+    }
+    .sm-77
+    {
+    width: 77%;
+    }
+    .sm-50
+    {
+    width:50% !important;
+    }
+    .sm-45
+    {
+    width:45%;
+    }
+    .sm-60
+    {
+    width:60%;
+    }
+    .sm-30
+    {
+    width: 30%;
+    } 
+   
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px)
+ {
+    .md-100
+    {
+    width: 100% !important;
+    }
+    .md-95
+    {
+    width: 95%;
+    }
+    .md-90
+    {
+    width: 90%;
+    }
+    .md-70
+    {
+    width: 70%;
+    }
+    .md-85
+    {
+    width: 85%;
+    }
+    .md-50
+    {
+    width: 50%;
+    }
+    .md-44
+    {
+    width: 44%;
+    }
+    .md-30
+    {
+    width: 30%;
+    }
+    .tab-pane .container .row
+    {
+    flex-direction: column !important;
+    }
+    .tab-pane .container .col,
+    .tab-pane .container .coll
+    {
+    width:100% !important;
+    }
+    /* .overaly {
+      position: absolute;
+      width: 97.7%;
+      height: 97.5%;
+      background: rgba(255, 255, 255, 0.95);
+      top: 6px;
+      left: 6px;
+      opacity: 0;
+} */
+/* Testimonials */
+.carousel-caption
+{
+display: block !important;
+}
+.carousel-item img {
+  width: 15% !important;
+  height: 15% !important;
+}
+    /* Our Team */
+    .fui
+    {
+    flex-direction: column;
+    }
+    .fui .col
+    {
+      width:100% !important;
+    }
+ }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px)
+ {
+    .lg-100
+    {
+    width: 100%;
+    }
+    .mode-class .dark
+    {
+    margin-left: 95%;
+    }
+    .lg-100
+    {
+    width: 100% !important;
+    }
+    .lg-95
+    {
+    width: 90%;
+    }
+    .lg-90
+    {
+    width: 90%;
+    }
+    .lg-80
+    {
+    width: 80%;
+    }
+    .lg-65
+    {
+    width: 65% !important;
+    }
+    .lg-50
+    {
+    width: 50% !important;
+    }
+    .lg-45
+    {
+    width: 45% !important;
+    }
+    .lg-40
+    {
+    width: 40%;
+    }
+    .lg-33
+    {
+    width: 33%;
+    }
+    .lg-30
+    {
+    width: 30%;
+    }
+    /* nav */
+    .active .nav-link::after
+    {
+    background: none;
+    }
+  
+    .navbar-nav
+    {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+
+    padding-left: 1rem;
+    }
+    .dropdown-toggle::after {
+      right: 15px;
+      position: absolute; 
+
+    }
+    
+    .navbar-nav .nav-link
+    {
+    color: #818181 !important;
+    }
+    .menu  
+    {
+    display: none !important;
+    transition: 2s all;
+    }
+    .nav-item:hover .menu
+    {
+    display: block !important;
+    }
+    .navbar-toggler
+    {
+    border: 0 !important;
+    }
+    .sett
+    {
+    color: white;
+    }
+    .navbar-toggler:focus
+    {
+    box-shadow: none !important;
+    }
+    .navbar-nav
+    {
+    text-align: center;
+    padding-top: 1.6rem;
+    }
+    .navbar-nav .nav-item  .nav-link
+    {
+    font-size: 1rem;
+    color: black !important;
+    font-weight: 100;
+    }
+    .navbar-nav .nav-item 
+    {
+    padding-bottom: 1rem;
+    }
+    /* About */
+    .About .container .row,
+    .Services .container .iop
+    {
+    flex-direction: column;
+    row-gap: 2rem;
+    }
+    .About .container .row:last-child .content
+    {
+      padding: 0.6rem !important;
+    }
+    .dot
+    {
+      font-size: 2.2rem;
+    }
+    /* numbers */
+    .numbers .container .row
+    {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .too
+    {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    }
+  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px)
+
+  
+    {
+    width: 100%;
+    }
+    .ex-90
+    {
+    width: 90%;
+    }
+    .ex-80
+    {
+    width: 80%;
+    }
+    .ex-70
+    {
+    width: 70%;
+    }
+    .ex-50
+    {
+    width: 50% !important;
+    }
+    .ex-35
+    {
+    width: 35%;
+    }
+    .ex-12
+    {
+    width: 12%;
+    }
+  

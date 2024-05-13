@@ -1,0 +1,544 @@
+:root
+{
+--main-color:white;
+--second-color: rgb(28,28,28);
+--transition:1s all ;
+--p-color :#748182;
+}
+html{
+   scroll-behavior: smooth;
+   transition: scroll 2s;
+
+   }
+li
+{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+/* head */
+.head
+{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../imgs/bg.jpg);
+background-size: cover;
+background-position: 0%  0%;
+}
+.circle_one  li span
+{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 35px;
+height: 35px;
+background:rgba(0, 0, 0, 0.3);
+border-radius: 50%;
+}
+.Main-h 
+{
+font-size: 4rem;
+}
+.typing
+{
+font-weight: 300;
+
+}
+.one::after
+{
+content:"" ;
+animation:typing 8s infinite ;
+font-weight: 400;
+color: var(--main-color);
+}
+
+@keyframes typing {
+ 1% {content:"D|"}
+ 2% {content:"De|"}
+ 2% {content:"Des|"}
+ 4% {content:"Desi|"}
+ 5% {content:"Desig|"}
+ 6% {content:"Design|"}
+ 7% {content:"Designe|"}
+ 8% {content:"Designer|"}
+ 22% {content:"Designer|"}
+ 23% {content:"Designe|"}
+ 24% {content:"Design|"}
+ 25% {content:"Desig|"}
+ 26% {content:"Desi|"}
+ 27% {content:"Des|"}
+ 28% {content:"De|"}
+ 29% {content:"D|"}
+ 30% {content:"|"}
+ 31% {content:"D|"}
+ 32% {content:"De|"}
+ 33% {content:"Dev|"}
+ 34% {content:"Deve|"}
+ 35% {content:"Devel|"}
+ 36% {content:"Develo|"}
+ 37% {content:"Develop|"}
+ 38% {content:"Develope|"}
+ 39% {content:"Developer|"}
+ 53% {content:"Developer|"}
+ 54% {content:"Develope|"}
+ 55% {content:"Develope|"}
+ 56% {content:"Develop|"}
+ 57% {content:"Develo|"}
+ 58% {content:"Devel|"}
+ 59% {content:"Deve|"}
+ 60% {content:"Dev|"}
+ 61% {content:"De|"}
+ 62% {content:"D|"}
+ 63% {content:"|"}
+ 64% {content:"L|"} 
+ 65% {content:"La|"}
+ 66% {content:"Larr|"}
+ 67% {content:"Larry|"}
+ 68% {content:"Larry D|"}
+ 69% {content:"Larry Da|"}
+ 70% {content:"Larry Dan|"}
+ 71% {content:"Larry Dani|"}
+ 72% {content:"Larry Danie|"}
+ 73% {content:"Larry Daniel|"}
+ 74% {content:"Larry Daniels|"}
+ 87% {content:"Larry Daniels|"}
+ 88% {content:"Larry Daniel|"}
+ 89% {content:"Larry Danie|"}
+ 90% {content:"Larry Dani|"}
+ 91% {content:"Larry Dan|"}
+ 92% {content:"Larry Da|"}
+ 93% {content:"Larry D|"}
+ 94% {content:"Larry|"}
+ 95% {content:"Larr|"}
+ 96% {content:"Lar|"}
+ 97% {content:"La|"}
+ 98% {content:"L|"}
+ 100% {content:"|"}
+
+}
+
+/* nav */
+
+.navbar-nav .nav-item  .nav-link
+{
+color: white !important;
+}
+
+nav .nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link
+{
+   border-bottom: 3px solid var(--main-color) !important;
+}
+/* About */
+
+.About
+{
+padding-top: 5rem;
+padding-bottom: 4rem;
+}
+.img
+{
+position: relative;
+}
+.hero::after
+{
+content: "";
+background-image: url(../imgs/dots.png);
+background-repeat: repeat;
+position: absolute;
+width: 80%;
+height: 80%;
+left: -29px;
+bottom: -31px;
+z-index: -1;
+}
+.dot
+{
+color: rgb(52,52,52);
+font-size: 3rem;
+}
+.dot::after
+{
+content: "";
+position: absolute;
+width: 8px;
+height: 8px;
+background-color:var(--second-color);
+border-radius: 50%;
+bottom: 9px;
+}
+.title
+{
+   display: inline-block;
+color: #999;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 1.2rem;
+}
+.main-p
+{
+line-height: 1.6;
+font-size: 1rem;
+color: var(--p-color);
+}
+.progres
+{
+background-color: rgb(247,247,247);
+box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+margin-bottom: 2rem;
+
+}
+.progres-bar
+{
+height:100%;
+width: 95%;
+background-color: var(--second-color);
+display: flex;
+justify-content: space-between;color: white;
+font-weight: 600;
+padding-inline: 1rem;
+padding-block: 0.2rem;
+}
+.ps
+{
+   width: 80%;
+}
+.pr
+{
+   width: 90%; 
+}
+.bar
+{
+   width: 90%;
+}
+.btn .Download
+{
+color: var(--main-color);
+}
+.btn-dark:hover
+{
+background-color: var(--main-color) !important;
+transition: var(--transition);
+}
+.btn .Download:hover
+{
+color: var(--second-color);
+transition: var(--transition);
+}
+.btn .Contact  
+{
+color: var(--second-color);
+}
+.btn-light
+{
+   border: 1px solid var(--second-color);
+   border-radius: 5px;
+}
+.btn-light:hover
+{
+background-color: var(--second-color) !important;
+transition: var(--transition);
+}
+.btn .Contact:hover
+{
+color: var(--main-color);
+transition: var(--transition);
+}
+.btn a{
+padding-inline: 1rem;
+}
+/* Services */
+.Services
+{
+background-color: rgb(247,247,247);
+padding-top:5rem;
+padding-bottom:4rem;
+}
+.main-title h1
+{
+color: var(--second-color);
+font-size: 3.2rem;
+position: relative;
+z-index: 4;
+}
+.main-title h1::after
+{
+   content: "";
+   position: absolute;
+   width: 9px;
+   height: 9px;
+   background-color: var(--second-color);
+   border-radius: 50%;
+   bottom: 20px;
+   }
+.main-title h1::before
+{
+   content: "";
+   position: absolute;
+   background-image: url(../imgs/dots.png);
+   background-repeat: repeat;
+   width: 100%;
+   height: 30px;
+   bottom: -5px;
+   left: 6px;
+   z-index: -1;
+}
+   .sp
+   {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      background:rgba(0, 0, 0, 0.1);
+   }
+   .ser-content>h2{
+   font-size: 1.4rem !important;
+   }
+   .ser-content>p
+   {
+      padding-inline: 1rem;
+      color: var(--p-color);
+   }
+   .col:hover .sp
+   {
+   background-color: var(--second-color);
+   color: var(--main-color);
+   transition: var(--transition);
+   }
+   .col  
+   {
+   width: 30%;
+   }
+   .col
+   {
+   padding-top: 2.1rem;
+   padding-inline: 0.1rem;
+   }
+   .column
+   {
+   column-gap: 2rem;
+   row-gap: 2rem;
+   }
+
+/* Portfolio */
+.Portfolio
+{
+   padding-top:5rem;
+   padding-bottom:4rem;
+}
+.overaly
+{
+position: absolute;
+width: 96%;
+height: 95.5%;
+background: rgba(255, 255, 255, 0.95);
+top: 6px;
+left:6px ;
+opacity: 0;
+}
+.imge-one:hover .overaly
+{
+   opacity:1;
+   transition: var(--transition);
+}
+.ov-icon li span
+{
+
+width: 35px;
+height: 35px;
+background-color: var(--second-color);
+color: var(--main-color);
+}
+.ov-icon li span:hover
+{
+background-color: var(--main-color);
+color: var(--second-color);
+transition: var(--transition);
+border: 2px solid #000;
+}
+.sum-titel
+{
+   font-size: 13px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+.coll
+{
+width: 30% !important;
+}
+.nav-pills .nav-link
+{
+background-color: transparent !important;
+color: var(--second-color) !important;
+font-size: 1rem;
+font-weight:700 ;
+}
+.nav-pills .nav-link.active , 
+.nav-pills .show>.nav-link
+{
+border-bottom:3px solid var(--second-color) ;
+border-radius: 0 !important;
+}
+.nav-pills .nav-link.a
+/* Testimonials */
+.Testimonials
+{
+padding-top:5rem;
+padding-bottom:4rem;
+background-color: rgb(247,247,247)!important;
+}
+
+.carousel-item img
+{
+width: 10%;
+height: 10%;
+border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]
+{
+width: 15px;
+height: 15px;
+background-color: var(--second-color);
+border-radius: 50%;
+}
+.carousel-caption
+{
+color: var(--second-color);
+}
+.carousel-caption >p
+{
+color: var(--p-color);
+}
+
+/* numbers */
+.numbers
+{
+   padding-top:5rem;
+   padding-bottom:4rem;
+}
+.col >p
+{
+color: var(--p-color);
+font-size: larger;
+}
+.col span i
+{
+font-size: 1.5rem;
+}
+/* Our Team */
+.Our-Team
+{
+   padding-top:5rem;
+   padding-bottom:4rem; 
+   background-color: rgb(247,247,247);
+}
+.over
+{
+   bottom: 0;
+   background: rgba(255, 255, 255, 0.95);
+   top: 5px;
+   left: 4px;
+   width: 96.5%;
+   height: 96.5%;
+}
+.dd
+{
+padding-bottom: 4rem !important;
+}
+.dd li span{
+   width: 35px;
+   height: 35px;
+   background-color: var(--second-color);
+
+}
+.dd li span a
+{
+   color: var(--main-color) !important;
+}
+.dd li span:hover
+{
+   background-color: var(--main-color);
+   transition: var(--transition);
+   border: 2px solid #000;
+}
+.dd li span:hover a
+{
+   color: var(--second-color) !important;
+   transition: var(--transition);
+}
+.over
+{
+opacity: 0;
+transition: 0.5s;
+transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.card:hover .over
+{
+opacity: 1;
+transform: rotateY(0deg) scale(1, 1);
+}
+
+.imw:hover img
+{
+transform:scale(1.1);
+transition: 0.5s all;
+}
+.card-body
+{
+background-color:rgb(91,91,91);
+}
+/* Contact Us */
+.Contact-Us
+{
+   padding-top:5rem;
+   padding-bottom:4rem; 
+}
+.cd span
+{
+   width: 70px;
+   height: 70px;
+   background:rgba(0, 0, 0, 0.1);
+}
+.cd:hover span
+{
+background-color: var(--second-color);
+color: var(--main-color);
+transition: var(--transition);
+}
+.col input
+{
+   background:rgba(0, 0, 0, 0.1);
+   padding: 0.6rem;
+}
+.col textarea
+{
+   background:rgba(0, 0, 0, 0.1);
+}
+.submit
+{
+background-color: var(--second-color) !important;
+color: var(--main-color) !important;
+border: none !important;
+padding-inline: 3rem !important;
+padding-block: 0.5rem !important;
+border-radius: 7px;
+border:1px solid var(--second-color)  !important;
+}
+.sub:hover
+{
+background-color: var(--main-color) !important;
+color: var(--second-color) !important;
+transition: var(--transition);
+}
+.form-control:focus
+{
+color: var(--second-color) !important;
+background-color: rgba(0, 0, 0, 0.1) !important;
+border-color: rgba(0, 0, 0, 0.1) !important;
+box-shadow:none !important;
+}
+/* footer */
+.footer
+{
+   padding: 1rem;
+background-color: var(--second-color);
+color: var(--p-color);
+}
